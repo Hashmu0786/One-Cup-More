@@ -1,0 +1,569 @@
+{
+  "menu": [
+    {
+      "category": "Pizza",
+      "filters": ["Classic Pizza", "Veg Pizza", "Non-Veg Pizza"],
+      "combos": [
+        {
+          "name": "Classic Pizza",
+          "items": [
+            {
+              "name": "Onion Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/OnionClassicPizza.jfif",
+              "prices": { "Regular": 79 }
+            },
+            {
+              "name": "Sweet Corn Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/SweatCornClassicPizza.png",
+              "prices": { "Regular": 89 }
+            },
+            {
+              "name": "Onion Paneer Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/OnionPaneerClassicPizza.png",
+              "prices": { "Regular": 119 }
+            },
+            {
+              "name": "Onion Capsicum Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/OnionCapsicumClassicPizza.jfif",
+              "prices": { "Regular": 109 }
+            },
+            {
+              "name": "Capsicum Paneer Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/CapsicumPaneerClassicPizza.png",
+              "prices": { "Regular": 129 }
+            },
+            {
+              "name": "Onion Jalapeno Sweet Corn Classic Pizza",
+              "image": "../assets/menuItems/ClassicPizza/OnionJalapenoSweatCornClassicPizza.png",
+              "prices": { "Regular": 149 }
+            }
+          ]
+        },
+        {
+          "name": "Veg Pizza",
+          "items": [
+            {
+              "name": "Margherita",
+              "image": "../assets/menuItems/VegPizza/MargheritaPizza.jpeg",
+              "prices": { "Regular": 120, "Medium": 220, "Large": 320 }
+            },
+            {
+              "name": "Farmhouse",
+              "image": "../assets/menuItems/VegPizza/FarmVillaPizza.png",
+              "prices": { "Regular": 140, "Medium": 240, "Large": 340 }
+            },
+            {
+              "name": "Paneer Tikka Pizza",
+              "image": "../assets/menuItems/VegPizza/PaneerLoversPizza.jpeg",
+              "prices": { "Regular": 150, "Medium": 250, "Large": 350 }
+            },
+            {
+              "name": "Veggie Delight",
+              "image": "../assets/menuItems/VegPizza/VeggieDelight.png",
+              "prices": { "Regular": 130, "Medium": 230, "Large": 330 }
+            }
+          ]
+        },
+        {
+          "name": "Chicken Pizza",
+          "type": "Non-Veg",
+          "items": [
+            {
+              "name": "Chicken Supreme",
+              "image": "../assets/menuItems/ChickenPizza/ChickenSupreme.png",
+              "prices": { "Regular": 180, "Medium": 280, "Large": 380 }
+            },
+            {
+              "name": "Chicken Golden Delight",
+              "image": "../assets/menuItems/ChickenPizza/ChickenDelightPizza.jpg",
+              "prices": { "Regular": 160, "Medium": 260, "Large": 360 }
+            },
+            {
+              "name": "Chicken Dominator",
+              "image": "../assets/menuItems/ChickenPizza/ChickenDominator.png",
+              "prices": { "Regular": 190, "Medium": 290, "Large": 390 }
+            },
+            {
+              "name": "Peri Peri Chicken",
+              "image": "../assets/menuItems/ChickenPizza/PeriPeriChickenPizza.png",
+              "prices": { "Regular": 170, "Medium": 270, "Large": 370 }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": " Chinese Statars",
+      "filters": [
+        "Chinese Statars",
+        " Non Veg Chinese Statars",
+        "Chinese Combo",
+        "Chinese Main Coarce"
+      ],
+      "combos": [
+        {
+          "name": "Chinese Statars",
+          "items": [
+            {
+              "name": "Veg Manchurian Dry",
+              "image": "../assets/menuItems/VegChineseStaters/VegManchurianDry.png",
+              "prices": 170
+            },
+            {
+              "name": "Veg Chill Dry",
+              "image": "../assets/menuItems/VegChineseStaters/VegChilliDry.png",
+              "prices": 170
+            },
+            {
+              "name": "Paneer Chilli Dry",
+              "image": "../assets/menuItems/VegChineseStaters/PaneerChilliDry.png",
+              "prices": 230
+            },
+            {
+              "name": "Paneer Manchurian Dry",
+              "image": "../assets/menuItems/VegChineseStaters/PaneerManchurianDry.png",
+              "prices": 230
+            },
+            {
+              "name": "Mushroom Chilli Dry",
+              "image": "../assets/menuItems/VegChineseStaters/MushroomChilliDry.png",
+              "prices": 250
+            },
+            {
+              "name": "Paneer65",
+              "image": "../assets/menuItems/VegChineseStaters/Paneer65.png",
+              "prices": 220
+            }
+          ]
+        },
+
+        {
+          "name": "Non Veg Chinese Statars",
+          "type": "Non-Veg",
+          "items": [
+            {
+              "name": "Chicken Manchurian Dry",
+              "image": "../assets/menuItems/NonVegChineseStaters/ChickenManchurianDry.png",
+              "prices": 170
+            },
+            {
+              "name": "Chicken chilli Dry",
+              "image": "../assets/menuItems/NonVegChineseStaters/ChickenChilliDry.png",
+              "prices": 170
+            },
+            {
+              "name": "Chicken 65",
+              "image": "../assets/menuItems/NonVegChineseStaters/Chicken65.png",
+              "prices": 230
+            },
+            {
+              "name": "Crunchi Chicken",
+              "image": "../assets/menuItems/NonVegChineseStaters/CrunchiChicken.png",
+              "prices": 230
+            },
+            {
+              "name": "Chicken Lolipop",
+              "image": "../assets/menuItems/NonVegChineseStaters/ChickenLolipop.png",
+              "prices": 250
+            }
+          ]
+        },
+
+        {
+          "name": "Chinese Combo",
+          "items": [
+            {
+              "name": "Noodles+ Manchurian + 200ml Coldrink",
+              "image": "../assets/menuItems/ChineseCombo/combo2.png",
+              "prices": 149
+            },
+            {
+              "name": "Paneer Rice + Paneer Chilli + Momo + Coldrink",
+              "image": "../assets/menuItems/ChineseCombo/combo1.png",
+              "prices": 170
+            },
+            {
+              "name": "Chicken Rice + Chicken Chilli + 200ml Coldrink",
+              "image": "../assets/menuItems/ChineseCombo/combo022.png",
+              "prices": 219
+            },
+            {
+              "name": "Chicken Man + Chicken Noodel + Momo + Coldrink",
+              "image": "../assets/menuItems/ChineseCombo/combo1.png",
+              "prices": 259
+            }
+          ]
+        },
+
+        {
+          "name": "Chinese Main Coarce",
+          "items": [
+            {
+              "name": "Veg Manchurian Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/VegManchurianGravy.png",
+              "prices": 190
+            },
+            {
+              "name": "Veg Chilli Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/VegChilliGravy.png",
+              "prices": 190
+            },
+            {
+              "name": "Paneer Chilli Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/PaneerChilliGravy.png",
+              "prices": 250
+            },
+            {
+              "name": "Paneer Manchurian Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/PaneerManchurianGravy.png",
+              "prices": 250
+            },
+            {
+              "name": "Chicken Manchurian Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/ChickenManchurianGravy.png",
+              "prices": 300
+            },
+            {
+              "name": "Chicken Chilli Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/ChickenChilliGravy.png",
+              "prices": 300
+            },
+            {
+              "name": "Mushroom Chilli Gravy",
+              "image": "../assets/menuItems/ChineseMainCoarce/MushroomChilliGravy.png",
+              "prices": 250
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": "Snacks",
+      "combos": [
+        {
+          "name": "Snacks",
+          "items": [
+            {
+              "name": "French Fries",
+              "image": "../assets/menuItems/Snacks/FrenchFries.png",
+              "prices": 110
+            },
+            {
+              "name": "Chilli Potato",
+              "image": "../assets/menuItems/Snacks/ChilliPotato.png",
+              "prices": 140
+            },
+            {
+              "name": "Honet Chilli potato",
+              "image": "../assets/menuItems/Snacks/HoneyChilliPotato.png",
+              "prices": 150
+            },
+            {
+              "name": "Corn Salted Paper",
+              "image": "../assets/menuItems/Snacks/CornSaltedPaper.png",
+              "prices": 170
+            },
+            {
+              "name": "Chilli Baby Corn",
+              "image": "../assets/menuItems/Snacks/ChilliBabyCorn.png",
+              "prices": 180
+            },
+            {
+              "name": "Mushroom Salted Paper",
+              "image": "../assets/menuItems/Snacks/MushroomSaltedPaper.png",
+              "prices": 190
+            },
+            {
+              "name": "Veg Spring Roll",
+              "image": "../assets/menuItems/Snacks/VegSpringRoll.png",
+              "prices": 160
+            },
+            {
+              "name": "Crispy Baby Corn",
+              "image": "../assets/menuItems/Snacks/CrispyBabyCorn.png",
+              "prices": 180
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": "Maggie & Pasta",
+      "combos": [
+        {
+          "name": "Maggie",
+          "items": [
+            {
+              "name": "Plain Maggi",
+              "image": "../assets/menuItems/Maggi/PlainMaggi.png",
+              "prices": 70
+            },
+            {
+              "name": "Vegetable Maggi",
+              "image": "../assets/menuItems/Maggi/VegetableMaggi.png",
+              "prices": 80
+            },
+            {
+              "name": "Butter Masala Maggi",
+              "image": "../assets/menuItems/Maggi/ButterMasalaMaggi.png",
+              "prices": 100
+            },
+            {
+              "name": "Cheese Maggi",
+              "image": "../assets/menuItems/Maggi/CheeseMaggi.png",
+              "prices": 130
+            },
+            {
+              "name": "Paneer Maggi",
+              "image": "../assets/menuItems/Maggi/PaneerMaggi.png",
+              "prices": 130
+            },
+            {
+              "name": "Egg Maggi",
+              "image": "../assets/menuItems/Maggi/eggmaggi.png",
+              "prices": 130
+            },
+            {
+              "name": "Chicken Maggi",
+              "image": "../assets/menuItems/Maggi/chickenmagi.png",
+              "prices": 190
+            }
+          ]
+        },
+
+        {
+          "name": "Pasta",
+          "items": [
+            {
+              "name": "Red Souce Pasta",
+              "image": "../assets/menuItems/Pasta/RedSoucePasta.png",
+              "prices": 150
+            },
+            {
+              "name": "White Souce Pasta",
+              "image": "../assets/menuItems/Pasta/WhiteSoucePasta.png",
+              "prices": 160
+            },
+            {
+              "name": "Mashroom Pasta",
+              "image": "../assets/menuItems/Pasta/MashroomPasta.png",
+              "prices": 160
+            },
+            {
+              "name": "Veg and Mac Pasta",
+              "image": "../assets/menuItems/Pasta/VegandMacPasta.png",
+              "prices": 150
+            },
+            {
+              "name": "Chicken Pasta",
+              "image": "../assets/menuItems/Pasta/ChickenPasta.png",
+              "prices": 130
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": "Beverages",
+      "combos": [
+        {
+          "name": "Beverages",
+          "items": [
+            {
+              "name": "Water Bottle 500ml",
+              "image": "../assets/menuItems/Beverages/WaterBottle500ml.png",
+              "prices": 10
+            },
+            {
+              "name": "Water Bottid 1ltr",
+              "image": "../assets/menuItems/Beverages/WaterBottid1ltr.png",
+              "prices": 20
+            },
+            {
+              "name": "Slice 125ml",
+              "image": "../assets/menuItems/Beverages/Slice125ml.png",
+              "prices": 10
+            },
+            {
+              "name": "Tropicana",
+              "image": "../assets/menuItems/Beverages/Tropicana.png",
+              "prices": 15
+            },
+            {
+              "name": "Soft Drinks",
+              "image": "../assets/menuItems/Beverages/SoftDrinks.png",
+              "prices": 20
+            },
+            {
+              "name": "Kulhad Tea",
+              "image": "../assets/menuItems/Beverages/KulhadTea.png",
+              "prices": 20
+            },
+            {
+              "name": "Lemon Icc Tea",
+              "image": "../assets/menuItems/Beverages/LemonIceTea.png",
+              "prices": 100
+            },
+            {
+              "name": "Special Hot Coffee",
+              "image": "../assets/menuItems/Beverages/SpecialHotCoffee.png",
+              "prices": 60
+            },
+            {
+              "name": "Black Calico",
+              "image": "../assets/menuItems/Beverages/BlackCoffee.png",
+              "prices": 40
+            },
+            {
+              "name": "Classic Cold Coffee",
+              "image": "../assets/menuItems/Beverages/ClassicColdCoffee.png",
+              "prices": 120
+            },
+            {
+              "name": "Chocolate Shake",
+              "image": "../assets/menuItems/Beverages/ChocolateShake.png",
+              "prices": 120
+            },
+            {
+              "name": "Banana Shake",
+              "image": "../assets/menuItems/Beverages/BananaShake.png",
+              "prices": 100
+            },
+            {
+              "name": "Mango Shake",
+              "image": "../assets/menuItems/Beverages/MangoShake.png",
+              "prices": 110
+            },
+            {
+              "name": "Strawberry Shake",
+              "image": "../assets/menuItems/Beverages/StrawberryShake.png",
+              "prices": 130
+            },
+            {
+              "name": "Green Apple Mojito",
+              "image": "../assets/menuItems/Beverages/GreenAppleMojito.png",
+              "prices": 90
+            },
+            {
+              "name": "Virgin Mojito",
+              "image": "../assets/menuItems/Beverages/VirginMojito.png",
+              "prices": 90
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": "Momo",
+      "combos": [
+        {
+          "name": "Momo",
+          "items": [
+            {
+              "name": "Veg Momo",
+              "image": "../assets/menuItems/Momo/VegMomo.png",
+              "prices": 80
+            },
+            {
+              "name": "Veg Fry Momo",
+              "image": "../assets/menuItems/Momo/VegFryMomo.png",
+              "prices": 100
+            },
+            {
+              "name": "Paneer Momo",
+              "image": "../assets/menuItems/Momo/PaneerMomo.png",
+              "prices": 120
+            },
+            {
+              "name": "Paneer Fry Momo",
+              "image": "../assets/menuItems/Momo/PaneerFryMomo.png",
+              "prices": 130
+            },
+            {
+              "name": "Tandoori Momo",
+              "image": "../assets/menuItems/Momo/TandooriMomo.png",
+              "prices": 180
+            },
+            {
+              "name": "Afgani Tabdoori Momo",
+              "image": "../assets/menuItems/Momo/AfganiTandooriMomo.png",
+              "prices": 220
+            },
+            {
+              "name": "Chicken Stream Momo",
+              "image": "../assets/menuItems/Momo/ChickenStreamMomo.png",
+              "prices": 150
+            },
+            {
+              "name": "Chicken Fry Momo",
+              "image": "../assets/menuItems/Momo/ChickenFryMomo.png",
+              "prices": 60
+            },
+            {
+              "name": "Chicken Tandoori Momo",
+              "image": "../assets/menuItems/Momo/ChickenTandooriMomo.png",
+              "prices": 40
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "category": "Sandwich & Garlic Bread",
+      "filters": ["Sandwich", "Garlic Bread"],
+      "combos": [
+        {
+          "name": "Garlic Bread",
+          "items": [
+            {
+              "name": "Garlic Bread (Plain)",
+              "image": "../assets/menuItems/GarlicBread/GarlicBread(Plain).jfif",
+              "prices": 80
+            },
+            {
+              "name": "Cheese Garlic Bread",
+              "image": "../assets/menuItems/GarlicBread/CheeseGarlicBread.jfif",
+              "prices": 100
+            },
+            {
+              "name": "Exotid Garlic Bread",
+              "image": "../assets/menuItems/GarlicBread/ExoticGarlicBread.png",
+              "prices": 120
+            }
+          ]
+        },
+        {
+          "name": "Sandwich",
+          "items": [
+            {
+              "name": "Veg Sandwich",
+              "image": "../assets/menuItems/Sandwich/VegSandwich.png",
+              "prices": 130
+            },
+            {
+              "name": "Paneer Sandwich",
+              "image": "../assets/menuItems/Sandwich/PaneerSandwich.png",
+              "prices": 160
+            },
+            {
+              "name": "Cheese Sandwich",
+              "image": "../assets/menuItems/Sandwich/CheeseSandwich.png",
+              "prices": 160
+            },
+            {
+              "name": "Chicken Sandwich",
+              "image": "../assets/menuItems/Sandwich/ChickenSandwich.png",
+              "prices": 180
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
